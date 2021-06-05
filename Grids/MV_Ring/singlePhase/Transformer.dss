@@ -1,0 +1,8 @@
+New Transformer.Transformer1 Phases=3 Windings=2 Xhl=5 %loadloss=0.15 %noloadloss=0.015 %imag=2
+~ wdg=1 bus=0 kv=150 kva=20000 conn=wye 
+~ wdg=2 bus=1 kv=20 kva=20000 conn=delta
+
+New Transformer.Transformer2 Phases=3 Windings=2 Xhl=5 %loadloss=0.15 %noloadloss=0.015 %imag=2
+~ wdg=1 bus=0 kv=150 kva=20000 conn=wye 
+~ wdg=2 bus=1 kv=20 kva=20000 conn=delta 
+

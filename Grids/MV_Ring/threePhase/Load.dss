@@ -1,0 +1,44 @@
+!Ring Loads1	
+New Load.Load1 Bus1=2.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=400 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load2 Bus1=3.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=60 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load3 Bus1=4.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=630 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load4 Bus1=5.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=250 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load5 Bus1=6.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=250.0 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load6 Bus1=7.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kw=200 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily =Shape_1
+!Ring Loads2
+New Load.Load7 Bus1=8.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=630 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load8 Bus1=9.1.2.3 Phases=3 Model=1   Conn=wye kV=20 kW=62 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load9 Bus1=10.1.2.3 Phases=3 Model=1  Conn=wye kV=20 kW=53 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load10 Bus1=11.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kW=400 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load11 Bus1=12.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kW=50 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+New Load.Load12 Bus1=13.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=250 PF=0.92 Vmaxpu=1.1 Vminpu=0.60
+
+!Dummy Loads
+
+New Load.dummyload1 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kW=2000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_1
+New Load.dummyload2 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kW=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_2
+New Load.dummyload3 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=2000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_3
+New Load.dummyload4 Bus1=1.1.2.3 Phases=3 Model=2 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_4
+New Load.dummyload5 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=1300 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_5
+New Load.dummyload6 Bus1=1.1.2.3 Phases=3 Model=3 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_6
+New Load.dummyload7 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=2000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_7
+New Load.dummyload8 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_8
+New Load.dummyload9 Bus1=1.1.2.3 Phases=3 Model=2 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_9
+New Load.dummyload10 Bus1=1.1.2.3 Phases=3 Model=6 Conn=wye kV=20 kw=2000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_10
+New Load.dummyload11 Bus1=1.1.2.3 Phases=3 Model=2 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_11
+New Load.dummyload12 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=500 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_6
+New Load.dummyload13 Bus1=1.1.2.3 Phases=3 Model=5 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_5
+New Load.dummyload14 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=2000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_4
+New Load.dummyload15 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=1000 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_6
+New Load.dummyload16 Bus1=1.1.2.3 Phases=3 Model=1 Conn=wye kV=20 kw=200 PF=0.92 Vmaxpu=1.1 Vminpu=0.60 !daily=Shape_1
+
+
+!Model number:
+!1 -Standard constant P+jQload. (Default)
+!2 -Constant impedance load.
+!3 -ConstP, Quadratic Q (like a motor).
+!4 -Nominal Linear P, Quadratic Q (feeder mix).
+!5 -Constant Current Magnitude
+!6 -ConstP, Fixed Q
+!7 -ConstP, Fixed Impedance Q
+!8 -ZIPV (7 values)

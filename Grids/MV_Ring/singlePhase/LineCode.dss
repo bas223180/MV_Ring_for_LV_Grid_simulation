@@ -1,0 +1,24 @@
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_150_Alrm_+_as25   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_240_Alrm_+_as25   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as25   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_630_Alrm_+_as25   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_630_Alrm_+_as50   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_630_Alrm_+_as35   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50   nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+New	  LineCode.YMeKrvaslqwd_Fca_18/30_kV_1_x_1000_Alrm_+_as50  nphases=1 R1=0.0469 X1=0.068 R0=06 X0=0.18 C1=0.32 C0=0.54
+
+
+New LineCode.3x1*_95_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.320	X1=	0.134	R0=	1.02	X0=	0.08	C1=	0.21	C0=	0.21
+New LineCode.3x1*_95_AL_XLPE_12/20_flat		nphases=3	R1=	0.320	X1=	0.192	R0=	1.02	X0=	0.08	C1=	0.21	C0=	0.21
+New LineCode.3x1*150_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.205	X1=	0.125	R0=	0.91	X0=	0.07	C1=	0.24	C0=	0.24
+New LineCode.3x1*150_AL_XLPE_12/20_flat		nphases=3	R1=	0.205	X1=	0.183	R0=	0.91	X0=	0.07	C1=	0.24	C0=	0.24
+New LineCode.3x1*240_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.126	X1=	0.116	R0=	0.83	X0=	0.06	C1=	0.29	C0=	0.29
+New LineCode.3x1*240_AL_XLPE_12/20_flat		nphases=3	R1=	0.126	X1=	0.174	R0=	0.83	X0=	0.06	C1=	0.29	C0=	0.29
+New LineCode.3x1*400_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.080	X1=	0.108	R0=	0.78	X0=	0.05	C1=	0.34	C0=	0.34
+New LineCode.3x1*400_AL_XLPE_12/20_flat		nphases=3	R1=	0.080	X1=	0.166	R0=	0.78	X0=	0.05	C1=	0.34	C0=	0.34
+New LineCode.3x1*630_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.049	X1=	0.101	R0=	0.75	X0=	0.05	C1=	0.42	C0=	0.42
+New LineCode.3x1*630_AL_XLPE_12/20_flat		nphases=3	R1=	0.049	X1=	0.159	R0=	0.75	X0=	0.05	C1=	0.42	C0=	0.42
+New LineCode.3x1*800_AL_XLPE_12/20_trefoil	nphases=3	R1=	0.038	X1=	0.099	R0=	0.72	X0=	0.04	C1=	0.46	C0=	0.46
+New LineCode.3x1*800_AL_XLPE_12/20_flat		nphases=3	R1=	0.038	X1=	0.153	R0=	0.72	X0=	0.04	C1=	0.46	C0=	0.46

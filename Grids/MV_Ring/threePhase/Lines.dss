@@ -1,0 +1,24 @@
+!MV RING 1 (radially driven)
+!3 Phase connection from Bus1 to Bus2
+New     Line.LINE1   Phases=3  Bus1=1.1.2.3    Bus2=2.1.2.3  LineCode=3x1*630_AL_XLPE_12/20_flat  Length=3.21 Units=km
+New     Line.LINE2   Phases=3  Bus1=2.1.2.3    Bus2=3.1.2.3  LineCode=3x1*630_AL_XLPE_12/20_flat  Length=2.67 Units=km
+New     Line.LINE3   Phases=3  Bus1=3.1.2.3    Bus2=4.1.2.3  LineCode=3x1*400_AL_XLPE_12/20_flat  Length=3.0 Units=km
+New     Line.LINE4  Phases=3  Bus1=4.1.2.3    Bus2=5.1.2.3  LineCode=3x1*400_AL_XLPE_12/20_flat  Length=2.5 Units=km
+New     Line.LINE5  Phases=3  Bus1=5.1.2.3    Bus2=6.1.2.3  LineCode=3x1*240_AL_XLPE_12/20_flat  Length=3.5 Units=km
+New     Line.LINE6  Phases=3  Bus1=6.1.2.3    Bus2=7.1.2.3  LineCode=3x1*150_AL_XLPE_12/20_flat  Length=0.5 Units=km
+
+!comment in when closed and comment out the line where the disconnection is
+!New     Line.LINE13 Phases=3  Bus1=7.1.2.3    Bus2=8.1.2.3  LineCode=CLOSED Length=0.00001 Units=km
+
+!Second radial grid
+New     Line.LINE7    Phases=3  Bus1=1.1.2.3     Bus2=8.1.2.3   LineCode=3x1*630_AL_XLPE_12/20_flat  Length=2.5 Units=km
+New     Line.LINE8    Phases=3  Bus1=8.1.2.3     Bus2=9.1.2.3   LineCode=3x1*630_AL_XLPE_12/20_flat  Length=3.5 Units=km
+New     Line.LINE9    Phases=3  Bus1=9.1.2.3     Bus2=10.1.2.3  LineCode=3x1*400_AL_XLPE_12/20_flat  Length=0.5 Units=km
+New     Line.LINE10   Phases=3  Bus1=10.1.2.3    Bus2=11.1.2.3  LineCode=3x1*400_AL_XLPE_12/20_flat  Length=2.7 Units=km
+New     Line.LINE11   Phases=3  Bus1=11.1.2.3    Bus2=12.1.2.3  LineCode=3x1*240_AL_XLPE_12/20_flat  Length=3.3 Units=km
+New     Line.LINE12   Phases=3  Bus1=12.1.2.3    Bus2=13.1.2.3  LineCode=3x1*150_AL_XLPE_12/20_flat  Length=2 Units=km
+
+
+!the connection from node 7 to 13 is not connected -> open connection
+
+!FROM RING TO LOAD -> Specified by user

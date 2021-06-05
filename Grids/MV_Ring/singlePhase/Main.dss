@@ -1,0 +1,43 @@
+// -------------------------------------------------------------------------------//
+// Main File OpenDSS - MV Distribution Network Model
+// by Ing. S.W. Roelofs
+// Electrical Energy Systems Group, Dep. of Electrical Engineering
+// Eindhoven University of Technology, The Netherlands
+// v.1 04/05/2021
+// -------------------------------------------------------------------------------//
+
+Clear
+
+Set DefaultBaseFrequency=50
+
+! Swing or Source Bar 
+New circuit.Source phases=3 pu=1.0 basekv=150 bus1=0
+
+! Transformer
+Redirect Transformer.dss
+
+! LineCodes 
+Redirect LineCode.dss
+
+! Lines 
+Redirect Lines.dss
+
+!LOAD DEFINITIONS 
+!redirect LoadShape.dss
+redirect Load.dss
+
+! Meter
+New energymeter.meter1 element=Line.LINE1PHASE1 terminal=1
+
+! Final Configurations
+Set VoltageBases = [150,20]
+CalcVoltageBases
+
+! Solve
+Solve
+
+
+
+
+
+

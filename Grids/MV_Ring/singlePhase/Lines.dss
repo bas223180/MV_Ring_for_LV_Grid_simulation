@@ -1,0 +1,57 @@
+!MV RING 1 (radially driven)
+!3 Phase connection from Bus1 to Bus2
+New     Line.LINE1PHASE1   Phases=1  Bus1=1.1    Bus2=2.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.21 Units=km
+New     Line.LINE1PHASE2   Phases=1  Bus1=1.2    Bus2=2.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.21 Units=km
+New     Line.LINE1PHASE3   Phases=1  Bus1=1.3    Bus2=2.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.21 Units=km
+
+New     Line.LINE2PHASE1   Phases=1  Bus1=2.1    Bus2=3.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.67 Units=km
+New     Line.LINE2PHASE2   Phases=1  Bus1=2.2    Bus2=3.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.67 Units=km
+New     Line.LINE2PHASE3   Phases=1  Bus1=2.3    Bus2=3.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.67 Units=km
+
+New     Line.LINE3PHASE1   Phases=1  Bus1=3.1    Bus2=4.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=3.0 Units=km
+New     Line.LINE3PHASE2   Phases=1  Bus1=3.2    Bus2=4.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=3.0 Units=km
+New     Line.LINE3PHASE3   Phases=1  Bus1=3.3    Bus2=4.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=3.0 Units=km
+
+New     Line.LINE4PHASE1   Phases=1  Bus1=4.1    Bus2=5.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.5 Units=km
+New     Line.LINE4PHASE2   Phases=1  Bus1=4.2    Bus2=5.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.5 Units=km
+New     Line.LINE4PHASE3   Phases=1  Bus1=4.3    Bus2=5.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.5 Units=km
+
+New     Line.LINE5PHASE1   Phases=1  Bus1=5.1    Bus2=6.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.5 Units=km
+New     Line.LINE5PHASE2   Phases=1  Bus1=5.2    Bus2=6.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.5 Units=km
+New     Line.LINE5PHASE3   Phases=1  Bus1=5.3    Bus2=6.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.5 Units=km
+
+New     Line.LINE6PHASE1   Phases=1  Bus1=6.1    Bus2=7.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=0.5 Units=km
+New     Line.LINE6PHASE2   Phases=1  Bus1=6.2    Bus2=7.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=0.5 Units=km
+New     Line.LINE6PHASE3   Phases=1  Bus1=6.3    Bus2=7.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=0.5 Units=km
+
+
+
+!Second radial grid
+New     Line.LINE7PHASE1   Phases=1  Bus1=1.1    Bus2=8.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.5 Units=km
+New     Line.LINE7PHASE2   Phases=1  Bus1=1.2    Bus2=8.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.5 Units=km
+New     Line.LINE7PHASE3   Phases=1  Bus1=1.3    Bus2=8.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=2.5 Units=km
+
+New     Line.LINE8PHASE1   Phases=1  Bus1=8.1    Bus2=9.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.5 Units=km
+New     Line.LINE8PHASE2   Phases=1  Bus1=8.2    Bus2=9.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.5 Units=km
+New     Line.LINE8PHASE3   Phases=1  Bus1=8.3    Bus2=9.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_800_Alrm_+_as50  Length=3.5 Units=km
+
+New     Line.LINE9PHASE1   Phases=1  Bus1=9.1    Bus2=10.1  LineCode=3x1*240_AL_XLPE_12/20_flat  Length=0.5 Units=km
+New     Line.LINE9PHASE2   Phases=1  Bus1=9.2    Bus2=10.2  LineCode=3x1*240_AL_XLPE_12/20_flat  Length=0.5 Units=km
+New     Line.LINE9PHASE3   Phases=1  Bus1=9.3    Bus2=10.3  LineCode=3x1*240_AL_XLPE_12/20_flat  Length=0.5 Units=km
+
+New     Line.LINE10PHASE1   Phases=1  Bus1=10.1    Bus2=11.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.7 Units=km
+New     Line.LINE10PHASE2   Phases=1  Bus1=10.2    Bus2=11.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.7 Units=km
+New     Line.LINE10PHASE3   Phases=1  Bus1=10.3    Bus2=11.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_400_Alrm_+_as50  Length=2.7 Units=km
+
+New     Line.LINE11PHASE1   Phases=1  Bus1=11.1    Bus2=12.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.3 Units=km
+New     Line.LINE11PHASE2   Phases=1  Bus1=11.2    Bus2=12.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.3 Units=km
+New     Line.LINE11PHASE3   Phases=1  Bus1=11.3    Bus2=12.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=3.3 Units=km
+
+New     Line.LINE12PHASE1   Phases=1  Bus1=12.1    Bus2=13.1  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=2 Units=km
+New     Line.LINE12PHASE2   Phases=1  Bus1=12.2    Bus2=13.2  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=2 Units=km
+New     Line.LINE12PHASE3   Phases=1  Bus1=12.3    Bus2=13.3  LineCode=YMeKrvaslqwd_Fca_18/30_kV_1_x_300_Alrm_+_as50  Length=2 Units=km
+
+
+!the connection from node 7 to 13 is not connected -> open connection
+
+!FROM RING TO LOAD -> Specified by user
