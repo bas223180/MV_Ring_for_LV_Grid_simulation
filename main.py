@@ -163,7 +163,7 @@ if __name__ == "__main__":
     plt.xlabel('Bus number')
     plt.ylabel("Voltage magnitude [P.U.]")
     plt.legend()
-    #plt.show()
+    plt.show()
 
     plt.plot(range(len(Pij)), list(Pij.values()), label='Active power')
     plt.plot(range(len(Qij)), list(Qij.values()), label='Reactive Power')
@@ -171,4 +171,4 @@ if __name__ == "__main__":
     plt.xlabel('Line')
     plt.ylabel("Power [kW,kvar]")
     plt.legend()
-    #plt.show()
+    plt.show()
