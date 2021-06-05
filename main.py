@@ -156,6 +156,8 @@ if __name__ == "__main__":
     print("Total Reactive power losses [kVAr]:", total_power_loss[1]/1000, "\n")
 
     # plotting
+    plt.figure(1)
+    plt.subplot(1,2,1)
     plt.plot(nome_list_bus, VA, label='Phase A')
     plt.plot(nome_list_bus, VB, label='Phase B')
     plt.plot(nome_list_bus, VC, label='Phase C')
@@ -163,8 +165,8 @@ if __name__ == "__main__":
     plt.xlabel('Bus number')
     plt.ylabel("Voltage magnitude [P.U.]")
     plt.legend()
-    plt.show()
-
+   
+    plt.subplot(1,2,2)
     plt.plot(range(len(Pij)), list(Pij.values()), label='Active power')
     plt.plot(range(len(Qij)), list(Qij.values()), label='Reactive Power')
     plt.title('Branch Power Flows')
